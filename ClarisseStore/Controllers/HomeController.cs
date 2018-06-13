@@ -37,7 +37,7 @@ namespace ClarisseStore.Controllers
         }
 
 
-        public IActionResult Necklace()
+        public IActionResult Aksesoris()
         {
             ViewData["Message"] = "Your contact page.";
 

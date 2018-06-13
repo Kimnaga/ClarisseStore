@@ -1,13 +1,31 @@
-﻿body {
-    padding-top: 50px;
+﻿.container {
+    margin-right: auto;
+    margin-left: auto;
+    width : 100%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.navbar-default {
+    background-color: #ffdada;
+    border-color: #E7E7E7;
+}
+
+body {
+    padding-top: 6rem;
     padding-bottom: 20px;
+
+}
+
+#brand {
+    font-size: 30px;
 }
 
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Carousel */
@@ -17,8 +35,20 @@
 }
 
 /* Make .svg files in the carousel display properly in older browsers */
-.carousel-inner .item img[src$=".svg"] {
+.carousel-inner {
     width: 100%;
+
+}
+
+.carousel .item {
+    height: 60rem;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 60rem;
 }
 
 /* QR code generator */
