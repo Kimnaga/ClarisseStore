@@ -51,10 +51,14 @@ namespace ClarisseStore.Controllers
             return View();
         }
 
-        public IActionResult Signup()
+        public ViewResult Signup()
         {
-            ViewData["Message"] = "Your contact page.";
+            return View();
+        }
 
+        [HttpPost]
+        public ViewResult Signup()
+        {
             return View();
         }
 
